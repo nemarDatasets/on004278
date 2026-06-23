@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Sustained Neural Representations of Personally Familiar People and Places During Cued Recall",
-  "description": "This dataset contains magnetoencephalography (MEG) data from a cued recall task designed to investigate sustained neural representations of personally familiar people and places. Participants were cued to recall specific individuals and locations while neural activity was recorded, enabling investigation of how the brain maintains and represents autobiographical memories and social knowledge during deliberate retrieval.",
+  "description": "This dataset contains neuroimaging data from a cued recall task investigating sustained neural representations of personally familiar people and places. Participants were cued to recall specific individuals and locations while MEG data were recorded, enabling investigation of how the brain maintains and represents autobiographical memories of social and spatial information.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,19 +27,16 @@
       "term": "social cognition"
     },
     {
-      "term": "neural representations"
+      "term": "place representation"
     },
     {
-      "term": "familiar people"
+      "term": "neural representation"
     },
     {
-      "term": "place recognition"
+      "term": "face representation"
     },
     {
-      "term": "cued recall task"
-    },
-    {
-      "term": "autobiographical memory retrieval"
+      "term": "person representation"
     }
   ],
   "related_identifiers": [
