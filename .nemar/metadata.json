@@ -2,6 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Sustained Neural Representations of Personally Familiar People and Places During Cued Recall",
+  "description": "This dataset contains magnetoencephalography (MEG) data from a cued recall task designed to investigate sustained neural representations of personally familiar people and places. Participants were cued to recall specific individuals and locations while neural activity was recorded, enabling investigation of how the brain maintains and represents autobiographical memories and social knowledge during deliberate retrieval.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,12 +13,36 @@
     "Chris Baker": {},
     "[(*) = equal contribution]": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004278.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "MEG"
     },
+    {
+      "term": "memory recall"
+    },
+    {
+      "term": "autobiographical memory"
+    },
+    {
+      "term": "social cognition"
+    },
+    {
+      "term": "neural representations"
+    },
+    {
+      "term": "familiar people"
+    },
+    {
+      "term": "place recognition"
+    },
+    {
+      "term": "cued recall task"
+    },
+    {
+      "term": "autobiographical memory retrieval"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004278",
       "identifier_type": "URL",
@@ -37,6 +62,11 @@
       "identifier": "10.1038/sdata.2018.110",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004278.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -46,12 +76,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "82.4 GB (429 files)"
   ],
   "formats": [
     ".acq",
@@ -72,30 +102,8 @@
     ".res4",
     ".segments",
     ".tsv",
-    ".txt"
+    ".txt",
+    ".yml"
   ],
-  "description": "This dataset contains MEG recordings acquired during a cued recall task designed to investigate sustained neural representations of personally familiar people and places. Participants were cued to recall specific individuals and locations while brain activity was monitored, enabling investigation of how the brain maintains and represents autobiographical memories and social knowledge.",
-  "keywords": [
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "cued recall"
-    },
-    {
-      "term": "Memory",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
-    },
-    {
-      "term": "autobiographical memory"
-    },
-    {
-      "term": "social cognition"
-    },
-    {
-      "term": "neural representation"
-    }
-  ],
-  "source_hash": "122e0a7838027c04a40b3eca2ad0345898a1b2978366d2009919809f54bbff57"
+  "source_hash": "0edc5acfdc1f9912fc692ccfb815e9d2c68287876f9da3356f3cb316d4d2a087"
 }
