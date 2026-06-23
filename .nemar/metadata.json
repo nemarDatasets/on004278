@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on004278",
-  "source": "openneuro",
-  "source_id": "ds004278",
+  "pipeline_stage": "validated",
   "title": "Sustained Neural Representations of Personally Familiar People and Places During Cued Recall",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Alexis Kidder(*)": {},
     "Anna Corriveau(*)": {},
@@ -12,27 +12,90 @@
     "Chris Baker": {},
     "[(*) = equal contribution]": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004278.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004278",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004278",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2018.110",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "meg"
-  ],
-  "datatypes": [
-    "meg"
   ],
   "funding_references": [
     {
-      "funder_name": "Intramural Research Program of the National Institute of Mental Health (ZIAMH002909)"
+      "funder_name": "National Institute of Mental Health",
+      "award_number": "ZIAMH002909"
     }
   ],
-  "acknowledgements": "We thank Adam Dickter, Wan Kwok, and Tom Holroyd for assistance with data acquisition, and Ed Silson and Adrian Gilmore for assistance with experimental design and comments on an earlier version of this manuscript. We also thank Karen for helpful discussions."
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "meg"
+  ],
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".acq",
+    ".bak",
+    ".cfg",
+    ".cls",
+    ".csv",
+    ".ds/BadChannels",
+    ".eeg",
+    ".hc",
+    ".hist",
+    ".infods",
+    ".json",
+    ".md",
+    ".meg4",
+    ".mrk",
+    ".newds",
+    ".res4",
+    ".segments",
+    ".tsv",
+    ".txt"
+  ],
+  "description": "This dataset contains MEG recordings acquired during a cued recall task designed to investigate sustained neural representations of personally familiar people and places. Participants were cued to recall specific individuals and locations while brain activity was monitored, enabling investigation of how the brain maintains and represents autobiographical memories and social knowledge.",
+  "keywords": [
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "cued recall"
+    },
+    {
+      "term": "Memory",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D008568"
+    },
+    {
+      "term": "autobiographical memory"
+    },
+    {
+      "term": "social cognition"
+    },
+    {
+      "term": "neural representation"
+    }
+  ],
+  "source_hash": "122e0a7838027c04a40b3eca2ad0345898a1b2978366d2009919809f54bbff57"
 }
