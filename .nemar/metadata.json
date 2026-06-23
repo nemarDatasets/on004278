@@ -1,0 +1,38 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004278",
+  "source": "openneuro",
+  "source_id": "ds004278",
+  "title": "Sustained Neural Representations of Personally Familiar People and Places During Cued Recall",
+  "authors": {
+    "Alexis Kidder(*)": {},
+    "Anna Corriveau(*)": {},
+    "Lina Teichmann": {},
+    "Susan Wardle": {},
+    "Chris Baker": {},
+    "[(*) = equal contribution]": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004278.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.6.0",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Intramural Research Program of the National Institute of Mental Health (ZIAMH002909)"
+    }
+  ],
+  "acknowledgements": "We thank Adam Dickter, Wan Kwok, and Tom Holroyd for assistance with data acquisition, and Ed Silson and Adrian Gilmore for assistance with experimental design and comments on an earlier version of this manuscript. We also thank Karen for helpful discussions."
+}
